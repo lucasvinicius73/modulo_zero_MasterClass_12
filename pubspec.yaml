@@ -1,0 +1,14 @@
+name: moduloZero
+description: "A new Flutter project."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.4 <4.0.0'
+
+dev_dependencies:
+  test: ^1.25.8
+
+
