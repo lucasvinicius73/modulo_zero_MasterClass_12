@@ -15,13 +15,3 @@ class Fibonacci {
     }
   }
 }
-
-void main() {
-  final fib = Fibonacci();
-  try {
-    List<int> list = fib.create(10);
-    print(list);
-  } catch (e) {
-    print(e);
-  }
-}

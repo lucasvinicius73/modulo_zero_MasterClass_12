@@ -12,9 +12,3 @@ class Imc {
     return (peso / pow(2, altura)).round();
   }
 }
-
-void main() {
-  final imc = Imc();
-
-  print(imc.calculo(peso: 106.5, altura: 1.8));
-}

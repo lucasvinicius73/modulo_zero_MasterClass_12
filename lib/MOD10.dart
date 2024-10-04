@@ -36,10 +36,3 @@ class Mod10 {
   }
 }
 
-void main(List<String> args) {
-  final mod10 = Mod10();
-
-  bool isValid = mod10.validate("5419825003461210");
-
-  print("O cartão é valido? R=$isValid");
-}

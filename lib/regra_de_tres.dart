@@ -27,8 +27,3 @@ class RegraDeTres {
   }
 }
 
-void main() {
-  final reg = RegraDeTres();
-  double calc = reg.calculo(grupo11: 407, grupo12: 1440,grupo22: 1920);
-  print("O valor da regra de 3: $calc");
-}

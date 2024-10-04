@@ -23,9 +23,3 @@ class DotEnv {
     return dotEnv;
   }
 }
-
-void main() {
-  final dotEnvRead = DotEnv();
-  Map content = dotEnvRead.readDotEnv("./.env");
-  print(content);
-}
